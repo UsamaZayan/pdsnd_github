@@ -119,6 +119,7 @@ def time_stats(df):
     df['hour'] = df['Start Time'].dt.hour
     popular_hour = df['hour'].mode()[0]
 
+    # format the hour in 12-hour clock fromat 
     if popular_hour < 12:
         print('Most Common Start Hour: ', popular_hour, ' AM')
     elif popular_hour >= 12:
