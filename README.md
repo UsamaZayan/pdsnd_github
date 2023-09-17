@@ -25,3 +25,6 @@ In this project, you will make use of Python to explore data related to bike sha
 
 ## Files used
 - **bikeshare.py** - final project
+- **chicago.csv** - csv file dataset used for analysis (ignored file)
+- **new_york_city.csv** - csv file dataset used for analysis (ignored file)
+- **washington.csv** - csv file dataset used for analysis (ignored file)
