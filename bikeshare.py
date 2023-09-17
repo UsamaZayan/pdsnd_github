@@ -243,6 +243,7 @@ def main():
         individual_data(df)
 
         restart = input('\nWould you like to restart? Enter yes or no.\n')
+        # exit if the user entr yes
         if restart.lower() != 'yes':
             break
 
